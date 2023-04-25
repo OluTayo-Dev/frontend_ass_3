@@ -1,0 +1,134 @@
+.body{
+    margin:0px;
+    padding:0px;
+}
+
+*{
+    box-sizing: border-box;
+    /*background-color: rgb(8, 8, 8);*/
+    border: 4px;
+    background-color:rgb(231, 231, 231);
+    
+    
+}
+
+/*.header {
+    /*border 1px solid red; */
+.row::after{
+    content:"";
+    clear: both;
+    display:table;
+}
+[class*="col-"]{
+    float:left;
+    color:rgb(249, 249, 249);
+    /*border-right:10px;
+    /*border: 1px solid red; */
+
+
+}
+ .header h1{
+    text-align:center;
+    color:black;
+    background-color: white;
+}
+.header{
+   background-color: white;
+}
+.header p{
+    text-align: center;
+    color:black;
+    background-color: white;
+}
+.main h1, h2, h3{
+    padding:0px;
+    color:black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    /*background-color: white;
+
+    /*background-color: grey;*/
+
+
+}
+.main p{
+    padding:0px;
+    margin-right:20px;
+    color:black;
+    background-color: white;
+}
+.main{
+    background-color:white;
+}
+
+body{
+    background-color: rgb(255, 253, 253);
+}
+.footer{
+    background-color: black;
+    text-decoration: none;
+    text-align: center;
+    margin-right:50px;
+    width:max-content;
+    justify-content: space-between;
+    padding: 10px;
+}
+.politics{
+    background-color: black;
+    padding-right:10px;
+}
+.politics h3{
+    color:white;
+    background-color: black;
+}
+.politics option{
+    background-color: black;
+    color:white;
+}
+.Entertainment{
+    background-color: black;
+}
+.Entertainment h3{
+    color:white;
+    background-color: black;
+    padding-left:70px;
+}
+.Entertainment option{
+    background-color: black;
+    color:white;
+}
+.Technology{
+    background-color: black;
+}
+.Technology h3{
+    color:white;
+    background-color: black;
+    padding-left:35px;
+}
+.Technology option{
+    background-color: black;
+    color:white;
+}
+.sidebar{
+    background-color: white;
+}
+.sidebar p{
+    color:black;
+    background-color: white;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.3%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+   
